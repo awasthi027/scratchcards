@@ -1,11 +1,13 @@
 Pod::Spec.new do |s|
 
+
+
 #1
 
 s.platform = :ios
 s.ios.deployment_target = '14.0'
 
-s.name = "scratchcard"
+s.name = "ScratchCard"
 
 s.summary = "Scratch card sample framework"
 
@@ -13,6 +15,11 @@ s.requires_arc = true
 
 # 2
 s.version = "1.0.0"
+
+s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+ }
+ s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
