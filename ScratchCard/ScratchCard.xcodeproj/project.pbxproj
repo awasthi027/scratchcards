@@ -28,11 +28,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8118B5D1FD31A5B13F927E0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A5B84132288C1C930073E415 = {
 			isa = PBXGroup;
 			children = (
 				A5B8413E288C1C930073E415 /* ScratchCard */,
 				A5B8413D288C1C930073E415 /* Products */,
+				8118B5D1FD31A5B13F927E0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +79,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5B84143288C1C930073E415 /* Build configuration list for PBXNativeTarget "ScratchCard" */;
 			buildPhases = (
+				2764113CBBD37A8514EC33A9 /* [CP] Check Pods Manifest.lock */,
 				A5B84137288C1C930073E415 /* Headers */,
 				A5B84138288C1C930073E415 /* Sources */,
 				A5B84139288C1C930073E415 /* Frameworks */,
@@ -127,6 +136,32 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2764113CBBD37A8514EC33A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ScratchCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5B84138288C1C930073E415 /* Sources */ = {
