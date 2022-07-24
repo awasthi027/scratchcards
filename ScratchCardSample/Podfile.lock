@@ -1,0 +1,16 @@
+PODS:
+  - AAScratchView (1.0.0)
+
+DEPENDENCIES:
+  - AAScratchView
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AAScratchView
+
+SPEC CHECKSUMS:
+  AAScratchView: 649b2692a8c71ed4d6eab1007893ec90fda80c22
+
+PODFILE CHECKSUM: ba244c57718380e6e1fa71a6b948486203dbfd05
+
+COCOAPODS: 1.11.3
