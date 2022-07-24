@@ -6,15 +6,15 @@
 //
 import UIKit
 
-public protocol ScratchViewDelegate: NSObjectProtocol {
-    func view(_ scratchView: ScratchView, scratchCardEraseProgress eraseProgress: Float)
+public protocol AAScratchViewDelegate: NSObjectProtocol {
+    func view(_ scratchView: AAScratchView, scratchCardEraseProgress eraseProgress: Float)
 }
 
 /// This class responsible for designing scratch cards
-public class ScratchView: UIImageView {
+public class AAScratchView: UIImageView {
 
     /// Delegated reference to give call back
-    public weak var delegate: ScratchViewDelegate?
+    public weak var delegate: AAScratchViewDelegate?
     /// draw boarder type
     public var lineType: CGLineCap = .round
     /// draw border width

@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A5B84140288C1C930073E415 /* ScratchCard.h in Headers */ = {isa = PBXBuildFile; fileRef = A5B8413F288C1C930073E415 /* ScratchCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5B84147288C1CE10073E415 /* ScratchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B84146288C1CE10073E415 /* ScratchView.swift */; };
+		A5B84147288C1CE10073E415 /* AAScratchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B84146288C1CE10073E415 /* AAScratchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A5B8413C288C1C930073E415 /* ScratchCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ScratchCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B8413C288C1C930073E415 /* AAScratchView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AAScratchView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5B8413F288C1C930073E415 /* ScratchCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScratchCard.h; sourceTree = "<group>"; };
-		A5B84146288C1CE10073E415 /* ScratchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScratchView.swift; sourceTree = "<group>"; };
+		A5B84146288C1CE10073E415 /* AAScratchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AAScratchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +38,7 @@
 		A5B84132288C1C930073E415 = {
 			isa = PBXGroup;
 			children = (
-				A5B8413E288C1C930073E415 /* ScratchCard */,
+				A5B8413E288C1C930073E415 /* AAScratchView */,
 				A5B8413D288C1C930073E415 /* Products */,
 				8118B5D1FD31A5B13F927E0C /* Frameworks */,
 			);
@@ -47,18 +47,18 @@
 		A5B8413D288C1C930073E415 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A5B8413C288C1C930073E415 /* ScratchCard.framework */,
+				A5B8413C288C1C930073E415 /* AAScratchView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A5B8413E288C1C930073E415 /* ScratchCard */ = {
+		A5B8413E288C1C930073E415 /* AAScratchView */ = {
 			isa = PBXGroup;
 			children = (
-				A5B84146288C1CE10073E415 /* ScratchView.swift */,
+				A5B84146288C1CE10073E415 /* AAScratchView.swift */,
 				A5B8413F288C1C930073E415 /* ScratchCard.h */,
 			);
-			path = ScratchCard;
+			path = AAScratchView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,9 +75,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A5B8413B288C1C930073E415 /* ScratchCard */ = {
+		A5B8413B288C1C930073E415 /* AAScratchView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A5B84143288C1C930073E415 /* Build configuration list for PBXNativeTarget "ScratchCard" */;
+			buildConfigurationList = A5B84143288C1C930073E415 /* Build configuration list for PBXNativeTarget "AAScratchView" */;
 			buildPhases = (
 				2764113CBBD37A8514EC33A9 /* [CP] Check Pods Manifest.lock */,
 				A5B84137288C1C930073E415 /* Headers */,
@@ -89,9 +89,9 @@
 			);
 			dependencies = (
 			);
-			name = ScratchCard;
+			name = AAScratchView;
 			productName = ScratchCard;
-			productReference = A5B8413C288C1C930073E415 /* ScratchCard.framework */;
+			productReference = A5B8413C288C1C930073E415 /* AAScratchView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +109,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A5B84136288C1C930073E415 /* Build configuration list for PBXProject "ScratchCard" */;
+			buildConfigurationList = A5B84136288C1C930073E415 /* Build configuration list for PBXProject "AAScratchView" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A5B8413B288C1C930073E415 /* ScratchCard */,
+				A5B8413B288C1C930073E415 /* AAScratchView */,
 			);
 		};
 /* End PBXProject section */
@@ -168,7 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5B84147288C1CE10073E415 /* ScratchView.swift in Sources */,
+				A5B84147288C1CE10073E415 /* AAScratchView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +359,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A5B84136288C1C930073E415 /* Build configuration list for PBXProject "ScratchCard" */ = {
+		A5B84136288C1C930073E415 /* Build configuration list for PBXProject "AAScratchView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5B84141288C1C930073E415 /* Debug */,
@@ -368,7 +368,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A5B84143288C1C930073E415 /* Build configuration list for PBXNativeTarget "ScratchCard" */ = {
+		A5B84143288C1C930073E415 /* Build configuration list for PBXNativeTarget "AAScratchView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A5B84144288C1C930073E415 /* Debug */,
