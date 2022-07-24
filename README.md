@@ -8,7 +8,7 @@ Designed Framework and Sample Application for Scratch card UI
 ##How to intergate in Controller
 
 
- @IBOutlet weak var scratchImageView: ScratchView!
+ @IBOutlet weak var scratchImageView: AAScratchView!
  @IBOutlet weak var scratchCardView: UIView!
   @IBOutlet weak var winningBgView: UIView!
   
@@ -25,9 +25,9 @@ Designed Framework and Sample Application for Scratch card UI
       self.scratchCardView.layer.cornerRadius = 8
       self.scratchCardView.layer.masksToBounds = true
       
- extension ScratchActionViewController: ScratchViewDelegate {
+ extension ScratchActionViewController: AAScratchViewDelegate {
  
-    func view(_ scratchView: ScratchView, scratchCardEraseProgress eraseProgress: Float) {
+    func view(_ scratchView: AAScratchView, scratchCardEraseProgress eraseProgress: Float) {
         if eraseProgress > 60.0 {
             UIView.animate(withDuration: 0.5, animations: {
                 self.scratchImageView.alpha = 0.0
