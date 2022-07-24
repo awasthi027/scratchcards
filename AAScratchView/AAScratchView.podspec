@@ -40,10 +40,10 @@ s.source = { :git => "https://github.com/awasthi027/scratchcards.git",
 
 
 # 8
-s.source_files = "ScratchCard/**/*.{swift}"
+s.source_files = "AAScratchView/**/*.{swift}"
 
 # 9
-#s.resources = "ScratchCard/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+#s.resources = "AAScratchView/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "5.5"
