@@ -25,6 +25,7 @@ Designed Framework and Sample Application for Scratch card UI
       self.scratchCardView.layer.cornerRadius = 8
       self.scratchCardView.layer.masksToBounds = true
       
+
 ** Implement Delegate in extension
 
  extension ScratchActionViewController: AAScratchViewDelegate {
